@@ -1,0 +1,10 @@
+*.jar
+*.class
+*.classpath
+.settings/*
+/target/*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
