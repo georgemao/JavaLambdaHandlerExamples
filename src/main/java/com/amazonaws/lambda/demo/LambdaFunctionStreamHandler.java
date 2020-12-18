@@ -17,6 +17,12 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 
+/**
+ * A Sample request handler for REST or HTTP APIs using the RequestStreamHandler input method
+ * Supports either v1 or v2 payload formats
+ * @author georgmao
+ *
+ */
 public class LambdaFunctionStreamHandler implements RequestStreamHandler {
 	Gson gson = new GsonBuilder().setPrettyPrinting().create();
 	

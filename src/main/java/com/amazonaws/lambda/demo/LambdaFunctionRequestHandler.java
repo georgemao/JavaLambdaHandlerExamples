@@ -11,6 +11,12 @@ import com.google.gson.GsonBuilder;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayV2HTTPEvent;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayV2HTTPResponse;
 
+/**
+ * A Sample request handler for HTTP APIs using the standard RequestHandler input method 
+ * Payload v2.0
+ * @author georgmao
+ *
+ */
 public class LambdaFunctionRequestHandler implements RequestHandler<APIGatewayV2HTTPEvent, APIGatewayV2HTTPResponse>{
 	  Gson gson = new GsonBuilder().setPrettyPrinting().create();
 	  
